@@ -131,10 +131,10 @@ background: linear-gradient(rgba(223, 248, 235, 1), rgba(223, 248, 235, 0.8)), u
     padding: 8rem 10rem 3rem 10rem;
 }
 
-/* .workbox {
- height: 350px;
- margin: 2rem;
-} */
+.flex {
+ display: flex;
+ justify-content: center;
+}
 
 .mobile {
   max-height: 100%;
