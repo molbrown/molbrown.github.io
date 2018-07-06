@@ -1,0 +1,247 @@
+/* CSS files add styling rules to your content */
+/* RGB */
+/* light cyan: rgba(223, 248, 235, 1);
+light moss green: rgba(186, 217, 181, 1);
+medium turqoise: rgba(82, 209, 220, 1);
+onyx: rgba(53, 59, 60, 1);
+navy: rgba(1, 22, 56, 1); */
+
+html {
+  height: 100%; }
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: rgba(223, 248, 235, 0.3);
+}
+
+h1, h2, h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+}
+
+.text {
+   font-size: 1.4rem; 
+}
+
+.marg-more {
+ padding: 0 14rem; 
+}
+
+.title {
+    margin: 0.6rem 0 0 0; 
+}
+
+.sub {
+  font-weight: 400;
+  margin-left: 0.2rem;
+}
+
+.head {
+  background-color: white; 
+  margin: 0 0 2rem 0;
+  padding: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  margin: 0 1rem; 
+  opacity: 0.7;
+}
+
+.nav {
+  color: rgba(53, 59, 60, 1);
+  margin: 2rem 6%;
+  display: inline-block;
+}
+
+.nav:hover {
+  color: rgba(53, 59, 60, 0.5);
+  text-decoration: none;
+}
+
+#top {
+background: linear-gradient(rgba(223, 248, 235, 1), rgba(223, 248, 235, 0.8)), url(https://cdn.glitch.com/7fc13658-ec6e-4bc6-9367-ffd89be61441%2Flaptop-wallpaper-1440x900.jpg?1530736326592);
+  background-position: top 45rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+  margin: 0;
+  width: 100%;
+}
+  
+.intro {
+  padding: 12rem 15rem 5rem 15rem;
+}
+
+.boxes {
+    text-align: center;
+}
+
+.box {
+  display: inline-block;
+  width: 280px;
+  height: 100px;
+  margin: 0rem 2rem 4rem 2rem;
+  padding: 1rem 0.5rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  vertical-align: top;
+  background-color: white;
+}
+
+.more {
+  text-align: center; 
+  padding: 0.6rem 0 2rem 0;
+
+}
+
+.arrow{
+    color: rgba(53, 59, 60, 1);
+}
+
+.main {
+  height: 50rem; 
+}
+
+#about {
+  background-color: rgba(53, 59, 60, 1);
+  color: white;
+  padding: 7rem 15rem 3rem 15rem;
+}
+
+.face {
+  max-width:98%;
+  max-height:98%;
+  width: auto;
+  height: auto;
+  border-radius: 100%;
+}
+
+.about-text {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#work {
+    padding: 8rem 10rem 3rem 10rem;
+}
+
+/* .workbox {
+ height: 350px;
+ margin: 2rem;
+} */
+
+.mobile {
+  max-height: 100%;
+/*   border: 1px rgba(53, 59, 60, 1) solid; */
+}
+
+.skills {
+ font-weight: 700; 
+}
+
+#contact {
+ background-color: white;
+ margin: 0;
+ text-align: center; 
+ padding: .5rem;
+}
+
+.foot {
+ padding: 2rem; 
+ font-size: 1.2rem; 
+ color:rgba(53, 59, 60, 1);
+}
+
+.foot:hover {
+  color: rgba(53, 59, 60, 0.5);
+  text-decoration: none;
+}
+
+#copyright {
+ font-size: .8rem;
+ padding: 1rem;
+}
+
+
+
+
+
+
+.portfolio-pane {
+  width: 30rem;
+  height: 20rem;
+  background-color: white;
+  display: inline-block;
+  color: #ffffff; 
+  text-align: center;
+  border: 0.5px rgba(53, 59, 60, 1) solid;
+  border-radius: 4%;
+  margin: 0 2rem;
+}
+
+
+/* .portfolio-pane:hover .portfolio-desc {
+  display: block;
+  float: left; }
+
+
+.portfolio-pane:hover .portfolio-image {
+  display: none; } */
+
+
+.portfolio-image {
+/*   width: 20rem; */
+  height: 20rem; 
+  vertical-align: top;
+/*   border: 1.2px rgba(53, 59, 60, 0.4) solid; */
+
+}
+
+
+.portfolio-desc {
+/*   display: block; */
+  padding: 1rem; 
+  color: rgba(53, 59, 60, 1);
+  vertical-align: top;
+}
+
+  .portfolio-desc h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400; 
+    color: rgba(53, 59, 60, 1)
+    
+}
+
+  .portfolio-desc a {
+    text-decoration: none; 
+    color: rgba(53, 59, 60, 1)
+}
+
+  .portfolio-desc p {
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    text-align: left; }
+
+.port-nav {
+  color: rgba(53, 59, 60, 1);
+  margin: 0.2rem;
+  display: inline-block;
+}
+
+.nav-two {
+ font-size: 8px; 
+}
+
+.port-nav:hover {
+  color: rgba(53, 59, 60, 0.5);
+  text-decoration: none;
+}
