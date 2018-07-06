@@ -168,11 +168,6 @@ background: linear-gradient(rgba(223, 248, 235, 1), rgba(223, 248, 235, 0.8)), u
  padding: 1rem;
 }
 
-
-
-
-
-
 .portfolio-pane {
   width: 30rem;
   height: 20rem;
@@ -185,22 +180,11 @@ background: linear-gradient(rgba(223, 248, 235, 1), rgba(223, 248, 235, 0.8)), u
   margin: 0 2rem;
 }
 
-
-/* .portfolio-pane:hover .portfolio-desc {
-  display: block;
-  float: left; }
-
-
-.portfolio-pane:hover .portfolio-image {
-  display: none; } */
-
-
 .portfolio-image {
 /*   width: 20rem; */
   height: 20rem; 
   vertical-align: top;
-/*   border: 1.2px rgba(53, 59, 60, 0.4) solid; */
-
+  border: 1.2px rgba(53, 59, 60, 0.4) solid;
 }
 
 
@@ -229,7 +213,8 @@ background: linear-gradient(rgba(223, 248, 235, 1), rgba(223, 248, 235, 0.8)), u
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.4rem;
-    text-align: left; }
+    text-align: left; 
+}
 
 .port-nav {
   color: rgba(53, 59, 60, 1);
